@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+body{
+    width: 100%;
+}
+h1,h2,h3,button{
+    text-transform: uppercase;
+}
+p{
+    font-size:large;
+}
+header{
+    width: 100%;
+    text-transform: uppercase;
+    background-color:rgba(52, 245, 245, 0.726);
+    
+}
+.nav_bar{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+.logo img{
+    width:100px;
+    padding: 7px;;
+}
+
+.nav_list{
+    margin:auto;
+    padding: 10px;
+    text-align:center;
+   
+}
+.nav_list a{
+    padding: 10px;
+    font-size:large;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+}
+.nav_list a:hover{
+    color:gold;
+    font-size:25px;
+}
+
+.main_container{
+    background-image: linear-gradient(to right, rgb(0, 162, 255) , yellow);
+    background-image: url(./images/yoga-fuer-anfaenger-4.jpg);
+    width:100%;
+    display:flex;
+    justify-content:center;
+    min-width:100vw;
+    min-height:92vh;
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+.main_div{
+    display:flex;
+   width: 70%;
+   align-items:center;
+}
+
+.main_img img{
+    height: 400px;
+    width: 395px;
+    border-radius: 50%;
+    border: 4px solid #6eafd4;
+    padding: 2px;
+    align-items: center;
+    margin:10px;
+
+}
+
+
+.main_text{
+    margin:40px 14px 0 14px;
+  width:100%;
+  align-items:center;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:transform;
+ 
+}
+.main_text h1{
+    color:red;
+    background-image: linear-gradient(to right, rgb(0, 162, 255) , yellow);
+    margin-bottom:20px;
+    font-weight: 1000;
+}
+.main_text button{
+    color:aqua;
+    background-color:black;
+    font-size:large;
+    padding:8px;
+    border-radius: 50px;
+    margin-top:15px;
+}
+.main_text button:hover{
+    
+    color:gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section{
+    background-color:white;
+}
+.sec1--text{
+    align-items: center;
+    display:flex;
+    width: 100%;
+    background-color:white;
+}
+.secton{
+    display:flex;
+    width:100%;
+    align-items: center;
+    text-align:center;
+}
+
+.sec1-text{
+    display:flex;
+    width:90%;
+    font-size: large;
+}
+.sec1-img img{
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid #844bcf;
+    padding: 2px;
+    align-items: center;
+    margin:10px;
+}
+.sec2-img img{
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid #844bcf;
+    padding: 2px;
+    align-items: center;
+    margin:10px;
+}
+.sec3-img img{
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid #844bcf;
+    padding: 2px;
+    align-items: center;
+    margin:10px;
+}
+.sec1-img,.sec2-img,.sec3-img{
+    
+    margin:20px;
+    padding:5px;
+    text-align:center;
+    align-items: center;
+    font-size:large;
+}
+.sec-text{
+    text-align:center;
+    padding:60px 70px 60px 70px;
+    
+}
+.sec1-text{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.sec-text h1{
+    font-size:60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-text p{
+    align-items: center;
+    text-align: center;
+     font-size:large;
+}
+
+.section2{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    background-image: url(./images/beach-1835213_1920.jpg);
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    color: rgb(255, 101, 11);
+} 
+.sect-2{
+    width:100%;
+}  
+.start-2{
+    text-align:center;
+    align-items:center;
+    padding-top:5rem
+    
+}
+.box1{
+   margin:30px;
+    text-align:center;
+    align-items: center;
+    width:20rem;
+    height:7rem;
+    border: 4px solid #6eafd4;
+    padding: 2px;
+}
+.box{
+    display:flex;
+     justify-content:space-between;
+     margin:10%;
+}
+.box1:hover{
+    color:gold;
+    background-color:black;
+    width:30rem;
+    border: 8px solid #51bee9;
+    cursor: pointer;
+}
+
+.section3{
+    width:100vw;
+    height:100vh;
+    color:black;
+    font-size:x-large;
+}
+.sect3{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.text-left{
+    width:100%;
+}
+.img-left{
+width:100%;
+}
+.img-left img{
+    height: 100vh;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+
+}
+.text-left{
+ margin: auto;
+ margin-top: 50px !important;
+ padding:40px;
+
+}
+.text-left button{
+    color:aqua;
+    background-color:black;
+    font-size:large;
+    padding:8px;
+    border-radius: 50px;
+    margin-top:15px;
+}
+.text-left button:hover{
+    color:gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section4{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    width:100vw;
+    height:100vh;
+}
+.sec-4 img{
+    width:100%;
+    height: 100%;
+}
+.price-sec{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+    align-items: center;
+    background-image: url(./images/yoga-class-seated-prayer-pose.jpg);
+    background-repeat: no-repeat;
+    background-position: scroll;
+    background-size: cover;
+    background-size:100%;
+    
+}
+.price-text{
+    width:100%;
+}
+.price{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.price-range{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+}
+.range1{
+    background-color: transparent;
+    border: 4px solid #6eafd4;
+    margin:10px;
+}
+.range1:hover{
+    color:gold;
+    background-color:black;
+}
+
+.range1 button{
+    color:aqua;
+    background-color:black;
+    font-size:large;
+    padding:8px;
+    border-radius: 50px;
+    margin-top:15px;
+}
+.range1 button:hover{
+    color:gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section5{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+    align-items: center;
+    background-image: url(./images/);
+}
+.sec5-img{
+    width:100%;
+    padding:100px;
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+.sec5-img img{
+    width: 400px;
+    height: 380px;
+    border-radius: 50%;
+    border: 4px solid #4bb5cf;
+    padding: 2px;
+    align-items: center;
+    margin:10px;
+}
+.sec5-img p{
+    font-weight:600;
+}
+.section6{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+    align-items: center;
+    margin:auto;
+    background-image: url(./images/yoga-with-family.jpg);
+     background-position:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+.sec6-text{
+    margin:auto;
+    padding:100px;
+    width:100%;
+    text-align:center;
+    align-items: center;
+}
+form{
+    width:100%;
+    border-radius: 4px solid black;
+    height:60px;
+}
+form input{
+    padding: 15px 20px;
+  margin: 8px;
+  box-sizing: border-box;
+  font-weight: 1000;
+  border-radius: 3px solid black;
+    border:50%;
+
+}
+input[type=button]{
+    color:black;
+    font-size: large;
+    border-radius: 4px solid white;
+    background-color:red;
+    border-radius: 50px;
+    width:200px;
+    font-weight:1000;
+    border:none;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: black;
+    color:white;
+}
+form input[type="text"] {
+    width: 300px; 
+    color:black;
+    background-color:rgb(177, 177, 177);
+    padding: 15px;
+    font-size: large;
+    outline: none;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+}
+.footer{
+    display:flex;
+    width: 95%;
+    height: 30vh;
+    margin:auto;
+    padding:17px;
+    background-color: black;
+}
+.footer-wrapper{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    text-transform:capitalize;
+    width: 100%;
+    color:rgb(230, 32, 32);
+    
+}
+.foot1{
+    display:grid;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.foot1 h2{
+    padding-bottom:10px;
+}
+.foot1 p{
+    font-size:smaller;
+    color:white;
+}
+.footer-1{
+    width:100%;
+}
+.footer-1 li{
+    list-style-type: none;
+    font-size:small;
+}
+.footer-1 a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.footer-1 ul li a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: gold;
+}
